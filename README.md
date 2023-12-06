@@ -4,7 +4,9 @@ Bybit API client
 
 ## Installation
 
-`bundle add rybit` or `gem install rybit`
+```ruby
+gem 'rybit' # in your Gemfile
+```
 
 ## Usage
 
@@ -16,7 +18,6 @@ client = Rybit::Client.new(
 
 client.get_wallet_balance
 ```
-
 
 ## Development
 
