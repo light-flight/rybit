@@ -1,8 +1,11 @@
 # frozen_string_literal: true
 
-require_relative "rybit/version"
+require_relative 'rybit/version'
 
 module Rybit
   class Error < StandardError; end
-  # Your code goes here...
+
+  def self.hi
+    'hello world'
+  end
 end
