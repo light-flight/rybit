@@ -7,6 +7,7 @@ Gem::Specification.new do |spec|
   spec.version = Rybit::VERSION
   spec.authors = ['Georgy Yuriev']
   spec.email = ['georgy.yuriev@gmail.com']
+  spec.license = 'MIT'
 
   spec.summary = 'Bybit on Ruby'
   spec.description = 'Bybit API connector'
