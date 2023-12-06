@@ -13,7 +13,7 @@ gem 'rybit' # in your Gemfile
 ```ruby
 client = Rybit::Client.new(
   key: '<your API KEY>',
-  key: '<your SECRET KEY>'
+  secret: '<your SECRET KEY>'
 )
 
 client.get_wallet_balance
