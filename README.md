@@ -32,7 +32,7 @@ client.create_order(
 )
 ```
 
-NOTE: tesnet credentials are created separately on https://testnet.bybit.com/app/user/api-management
+NOTE: **tesnet** credentials are created separately on https://testnet.bybit.com/app/user/api-management
 
 ## Development
 
