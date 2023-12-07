@@ -1,6 +1,6 @@
 # Rybit
 
-Bybit API client
+Bybit Ruby API client
 
 ## Installation
 
