@@ -12,3 +12,15 @@ Layout/LineLength:
 
 Style/Documentation:
   Enabled: false
+
+Metrics/MethodLength:
+  Max: 15
+  Exclude:
+    - 'lib/rybit/client.rb'
+
+Metrics/AbcSize:
+  Exclude:
+    - 'lib/rybit/client.rb'
+
+Naming/AccessorMethodName:
+  Enabled: false

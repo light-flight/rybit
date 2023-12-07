@@ -12,12 +12,27 @@ gem 'rybit' # in your Gemfile
 
 ```ruby
 client = Rybit::Client.new(
-  key: '<your API KEY>',
-  secret: '<your SECRET KEY>'
+  api_key: '<your API KEY>',
+  secret_key: '<your SECRET KEY>',
+  # testnet: <boolean> (default false)
 )
 
-client.get_wallet_balance
+client.get_wallet_balance(accountType: 'CONTRACT')
+
+client.create_order(
+  category: 'linear',
+  symbol: 'BTCUSDT',
+  side: 'Buy',
+  positionIdx: 0,
+  orderType: 'Limit',
+  qty: '0.001',
+  price: '10000',
+  timeInForce: 'GTC',
+  orderLinkId: SecureRandom.uuid
+)
 ```
+
+NOTE: tesnet credentials are created separately on https://testnet.bybit.com/app/user/api-management
 
 ## Development
 
