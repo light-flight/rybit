@@ -8,7 +8,7 @@ module Rybit
 
     attr_accessor :api_key, :secret_key, :testnet, :base_url, :recv_window
 
-    debug_output $stdout
+    # debug_output $stdout
 
     def initialize(api_key:, secret_key:, testnet: false, recv_window: '5000')
       @api_key = api_key
